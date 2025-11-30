@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CLOVE — Landing Page Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="container header-row">
+            <a class="brand" href="#">CLOVE</a>
+
+            <nav id="nav" class="nav">
+                <a href="#hero">Home</a>
+                <a href="#safety">Safety</a>
+                <a href="#services">Services</a>
+                <a href="#clinics">Clinics</a>
+                <a href="#testimonials">Reviews</a>
+            </nav>
+
+            <button id="menuBtn" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <h1>Painless root canal & expert dental care</h1>
+                <p class="lead">Expert RCT, implants, aligners and more — book a free consultation with India's leading clinics.</p>
+
+                <div class="cta-row">
+                    <a class="btn primary" href="#clinics">Book Appointment</a>
+                    <a class="btn ghost" href="#services">View Services</a>
+                </div>
+
+                <form id="appointmentForm" class="form-compact" aria-label="Book appointment">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="tel" name="phone" placeholder="Mobile number" required>
+                    <input type="text" name="captcha" placeholder="Captcha 1514" required>
+                    <label class="consent">
+                        <input type="checkbox" name="consent" required> I agree to CLOVE Dental’s Terms & Privacy and consent to be contacted.
+                    </label>
+                    <button class="btn primary" type="submit">Book a Free Consultation</button>
+                </form>
+            </div>
+
+            <div class="hero-right">
+                <img src="https://source.unsplash.com/900x700/?dentist,clinic" alt="Clinic preview">
+                <div class="stats">
+                    <div>
+                        <strong>600+</strong>
+                        <span>Clinics</span>
+                    </div>
+                    <div>
+                        <strong>1300+</strong>
+                        <span>Dentists</span>
+                    </div>
+                    <div>
+                        <strong>30L+</strong>
+                        <span>Happy Patients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAFETY / WHY CHOOSE -->
+    <section id="safety" class="section light">
+        <div class="container">
+            <h2>Safety, Precision, and Innovation</h2>
+            <p class="muted">Advanced care with top safety, sterilization, and technology.</p>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>10X Safety</h3>
+                    <p>10X safety protocols for a secure and worry-free dental experience.</p>
+                    <a class="link" href="#">Learn More</a>
+                </article>
+
+                <article class="card">
+                    <h3>4-Step Sterilization</h3>
+                    <p>Rigid 4-step sterilization process, assuring a clean and spotless clinic.</p>
+                    <a class="link" href="#">Learn More</a>
+                </article>
+
+                <article class="card">
+                    <h3>DORI — AIPS</h3>
+                    <p>AI-powered sterilization monitoring system exclusively at Clove.</p>
+                    <a class="link" href="#">Learn More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES / PROCEDURES -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="muted">From root canals to implants — expert care across India.</p>
+
+            <div class="service-grid">
+                <div class="service">
+                    <img src="https://source.unsplash.com/400x300/?rootcanal,dental" alt="">
+                    <h4>Root Canal Treatment</h4>
+                    <p>Expert RCT. Zero pain. Start from ₹19,999.</p>
+                    <a class="small-link" href="#">Get Free Consultation</a>
+                </div>
+
+                <div class="service">
+                    <img src="https://source.unsplash.com/400x300/?implant,dental" alt="">
+                    <h4>Implants</h4>
+                    <p>Experienced implantologists and world-class equipment.</p>
+                    <a class="small-link" href="#">Get Free Consultation</a>
+                </div>
+
+                <div class="service">
+                    <img src="https://source.unsplash.com/400x300/?aligners,teeth" alt="">
+                    <h4>Aligners</h4>
+                    <p>Modern aligner treatments with clinical oversight.</p>
+                    <a class="small-link" href="#">Get Free Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLINICS / LOCATIONS -->
+    <section id="clinics" class="section light">
+        <div class="container">
+            <h2>Find Us Across India</h2>
+            <p class="muted">With over 600+ clinics and presence in major cities, you're never far from a Clove clinic.</p>
+
+            <div class="locations-grid">
+                <div class="loc"><strong>Delhi/NCR</strong><span>190 Clinics</span></div>
+                <div class="loc"><strong>Bengaluru</strong><span>110 Clinics</span></div>
+                <div class="loc"><strong>Mumbai</strong><span>40 Clinics</span></div>
+                <div class="loc"><strong>Chennai</strong><span>59 Clinics</span></div>
+                <div class="loc"><strong>Hyderabad</strong><span>76 Clinics</span></div>
+                <div class="loc"><strong>Pune</strong><span>76 Clinics</span></div>
+                <div class="loc"><strong>Ahmedabad</strong><span>27 Clinics</span></div>
+                <div class="loc"><strong>Punjab</strong><span>27 Clinics</span></div>
+            </div>
+
+            <p class="muted small-note">Clinic counts and city list taken from your reference file. :contentReference[oaicite:2]{index=2}</p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>What Our Patients Say</h2>
+            <div class="testi-wrap">
+                <button id="prev" class="t-arrow">‹</button>
+
+                <div class="t-track" id="tTrack">
+                    <figure class="t-card">
+                        <blockquote>“Lorem ipsum dolor sit amet — excellent care and results.”</blockquote>
+                        <figcaption>— Neha Singh</figcaption>
+                    </figure>
+
+                    <figure class="t-card">
+                        <blockquote>“Real smiles, real stories — highly recommend Clove.”</blockquote>
+                        <figcaption>— Shubham, Indore</figcaption>
+                    </figure>
+
+                    <figure class="t-card">
+                        <blockquote>“Professional doctors and painless treatment.”</blockquote>
+                        <figcaption>— Anita, Bangalore</figcaption>
+                    </figure>
+                </div>
+
+                <button id="next" class="t-arrow">›</button>
+            </div>
+
+            <p class="muted small-note">Sample reviews taken/derived from your reference file. :contentReference[oaicite:3]{index=3}</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>CLOVE</h3>
+                <p class="muted">All Rights Reserved - 2024, Clove Dental.</p>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#clinics">Clinics</a>
+            </nav>
+
+            <div>
+                <p class="muted">Managed by Unbund.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
